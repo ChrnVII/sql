@@ -4,7 +4,7 @@ import java.sql.*;
 
 public class Main {
     public static void main(String[] args) {
-        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/study", "root", "123456");
+        try (Connection connection = DriverManager.getConnection("jdbc:mysql://4.216.182.145:3306/study", "root", "123456");
                 Statement stat = connection.createStatement();) {
             ResultSet set = stat.executeQuery("select * from student;");
             
