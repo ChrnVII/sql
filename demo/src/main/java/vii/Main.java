@@ -1,4 +1,4 @@
-package com.example;
+package vii;
 
 import java.sql.*;
 
@@ -17,5 +17,6 @@ public class Main {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
     }
 }
